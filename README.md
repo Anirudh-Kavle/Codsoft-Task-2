@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection
+# Movie Genre Prediction
 
 ## Table of Contents
 
@@ -9,22 +9,24 @@
 
 ## Introduction
 
-Credit card fraud is a significant concern for financial institutions and cardholders. Detecting fraudulent transactions is crucial to prevent financial losses and maintain trust among customers. This project focuses on building a machine learning model for credit card fraud detection.
+Predicting movie genres based on text descriptions is a valuable task in the entertainment industry. This project focuses on utilizing machine learning techniques to predict movie genres from movie scripts.
 
 ## Dataset
 
-The dataset used in this project is `creditcard.csv`. It contains transaction data, including features such as transaction amounts and times, and labels indicating whether a transaction is normal or fraudulent.
+The dataset used in this project is kaggle_movie_train.csv. It contains movie script data, including text descriptions and corresponding genres. The dataset is used for training and evaluating the genre prediction model.
 
 ## Usage
 
 To run this project, you'll need to have Python and the following libraries installed:
 
-- numpy
-- pandas
-- sklearn
-- scipy
-- matplotlib
-- seaborn
+-numpy
+-pandas
+-matplotlib
+-seaborn
+-nltk
+-wordcloud
+-scikit-learn
+
 
 1. Download the dataset creditcard.csv and place it in the project directory.
 2. Open the Jupyter Notebook or Python script in your preferred development environment.
@@ -40,7 +42,11 @@ To run this project, you'll need to have Python and the following libraries inst
 
 ## Results
 
-Through our analysis and machine learning models, we successfully identified and flagged credit card fraud, contributing to enhanced security measures. Our models demonstrated strong performance in accurately detecting fraudulent transactions, mitigating financial risks associated with fraud.
+Through our analysis and machine learning model, we have successfully predicted movie genres based on text descriptions. The Multinomial Naive Bayes classifier demonstrated a high level of accuracy in genre prediction. This model can be valuable for automated genre tagging and recommendation systems in the entertainment industry.
+
+
+
+
 
 
 
